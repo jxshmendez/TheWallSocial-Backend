@@ -21,5 +21,4 @@ jobs:
           cache: 'maven'
 
       - name: Build backend
-        working-directory: /backend
         run: mvn clean verify -DskipTests
